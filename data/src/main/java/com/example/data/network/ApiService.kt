@@ -6,8 +6,6 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-//    @GET("users")
-//    @GET("api/character")
-//    @GET("service/v2/upcomingGuides")
+
     @GET("service/v2/upcomingGuides/")
     suspend fun getUsers():Response<MyData>}

@@ -11,9 +11,7 @@ class AppModule {
 
     @Provides
     @Singleton
-//    fun provideBaseUrl():String="https://jsonplaceholder.typicode.com/"
-//    fun provideBaseUrl():String="https://rickandmortyapi.com/"
-//    fun provideBaseUrl():String="https://guidebook.com/service/v2/"
+
     fun provideBaseUrl():String="https://guidebook.com/"
 
     @Provides
